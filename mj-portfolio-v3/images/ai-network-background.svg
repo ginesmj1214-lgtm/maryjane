@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9D6E8"/>
+      <stop offset=".34" stop-color="#E9B9AC"/>
+      <stop offset=".68" stop-color="#F4A66F"/>
+      <stop offset="1" stop-color="#F6CF91"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0" cy="0" r="1" gradientTransform="matrix(0 410 -500 0 1110 535)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C7" stop-opacity=".94"/>
+      <stop offset=".26" stop-color="#FFCA82" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#F79768" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="1065" y1="390" x2="1150" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7D9"/>
+      <stop offset="1" stop-color="#FFD58D"/>
+    </linearGradient>
+    <linearGradient id="farHills" x1="800" y1="585" x2="800" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D8493"/>
+      <stop offset="1" stop-color="#71877F"/>
+    </linearGradient>
+    <linearGradient id="nearHills" x1="800" y1="650" x2="800" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#536F68"/>
+      <stop offset="1" stop-color="#294F4B"/>
+    </linearGradient>
+    <linearGradient id="water" x1="800" y1="720" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8E9B8D"/>
+      <stop offset=".4" stop-color="#637C72"/>
+      <stop offset="1" stop-color="#354F4D"/>
+    </linearGradient>
+    <linearGradient id="reflection" x1="1110" y1="650" x2="1110" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE5A6" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#FFC078" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="network" x1="170" y1="130" x2="1460" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9E7" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#D8FFF0" stop-opacity=".3"/>
+    </linearGradient>
+    <pattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".55" fill="#FFFFFF" fill-opacity=".14"/>
+    </pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <path fill="url(#sunGlow)" d="M0 0h1600v1000H0z"/>
+  <circle cx="1110" cy="520" r="112" fill="url(#sun)"/>
+  <path fill="#FFF0D2" fill-opacity=".24" d="M0 462c172-39 283-32 425-7s255 25 391-10 257-38 407-8 238 15 377-17v102H0V462Z"/>
+  <path fill="#FFF6E6" fill-opacity=".36" d="M0 510c194-20 312-2 456 15s261 3 405-18 261-8 379 10 238 15 360-8v73H0v-72Z"/>
+  <path fill="url(#farHills)" d="m0 673 120-54 86 27 142-99 108 62 133-76 115 57 104-56 103 45 141-104 108 73 97-42 143 68v241H0V673Z"/>
+  <path fill="url(#water)" d="M0 720c176-15 292 10 453 0s310-31 478-7 329 27 669 0v287H0V720Z"/>
+  <path fill="url(#reflection)" d="M1030 629h175l147 371H878l152-371Z"/>
+  <g fill="#FFE9B8" fill-opacity=".56">
+    <path d="M1044 710h133l-10 10h-114l-9-10Zm-31 38h193l-8 8h-177l-8-8Zm-29 37h248l-8 9h-231l-9-9Zm-30 42h309l-9 9H963l-9-9Zm-37 47h385l-10 9H927l-10-9Zm-40 53h466l-12 9H889l-12-9Z"/>
+  </g>
+  <path fill="url(#nearHills)" d="m0 791 105-50 102 35 118-47 124 74 92-34 118 55 106-46 100 26 119-58 91 46 111-43 93 42 121-42v251H0V791Z"/>
+  <path fill="#254844" fill-opacity=".72" d="M0 884c200-50 357-8 527 16s323 6 472-25 372-13 601 37v88H0v-116Z"/>
+  <g stroke="url(#network)" stroke-width="2">
+    <path d="m112 152 146 84 144-64 139 102 156-48 116 70 155-89 132 57 153-87 134 62"/>
+    <path d="m230 414 101-111 215 11 147-104 189 42 107-134 188 31 159-91"/>
+    <path d="m916 80 31 154 175 34 89 146 190 14"/>
+    <path d="m120 334 179 80 128-64 155 90 179-57 141 55 160-39"/>
+  </g>
+  <g fill="#FFF9E7" stroke="#518A78" stroke-opacity=".56" stroke-width="2">
+    <circle cx="112" cy="152" r="7"/><circle cx="258" cy="236" r="6"/>
+    <circle cx="402" cy="172" r="8"/><circle cx="541" cy="274" r="6"/>
+    <circle cx="697" cy="226" r="7"/><circle cx="813" cy="296" r="6"/>
+    <circle cx="968" cy="207" r="8"/><circle cx="1100" cy="264" r="6"/>
+    <circle cx="1253" cy="177" r="7"/><circle cx="1387" cy="239" r="6"/>
+    <circle cx="331" cy="303" r="6"/><circle cx="546" cy="314" r="7"/>
+    <circle cx="735" cy="356" r="6"/><circle cx="916" cy="299" r="8"/>
+    <circle cx="1076" cy="360" r="6"/><circle cx="1266" cy="374" r="7"/>
+  </g>
+  <path fill="url(#grain)" d="M0 0h1600v1000H0z"/>
+</svg>
